@@ -1,0 +1,49 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  height: 11em;
+  justify-content: space-evenly;
+  transition: 0.2s all ease-in-out;
+}
+
+.card:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 0.5rem;
+}
+
+.hostname {
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 0.6em;
+  margin-bottom: 0.2rem;
+}
+
+.status {
+  color: white;
+  padding: 5px;
+  margin-bottom: 0.7rem;
+}
+
+.status.true {
+  background-color: green;
+}
+
+.status.false {
+  background-color: red;
+}

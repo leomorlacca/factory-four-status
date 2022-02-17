@@ -1,0 +1,20 @@
+export const aEndpoints = [
+  { name: "accounts", url: "https://api.factoryfour.com/accounts/health/status" },
+  { name: "assets", url: "https://api.factoryfour.com/assets/health/status" },
+  { name: "customers", url: "https://api.factoryfour.com/customers/health/status" },
+  { name: "datapoints", url: "https://api.factoryfour.com/datapoints/health/status" },
+  { name: "devices", url: "https://api.factoryfour.com/devices/health/status" },
+  { name: "documents", url: "https://api.factoryfour.com/documents/health/status" },
+  { name: "forms", url: "https://api.factoryfour.com/forms/health/status" },
+  { name: "invites", url: "https://api.factoryfour.com/invites/health/status" },
+  { name: "media", url: "https://api.factoryfour.com/media/health/status" },
+  { name: "messages", url: "https://api.factoryfour.com/messages/health/status"},
+  { name: "namespaces", url: "https://api.factoryfour.com/namespaces/health/status" },
+  { name: "orders", url: "https://api.factoryfour.com/orders/health/status" },
+  { name: "patients", url: "https://api.factoryfour.com/patients/health/status" },
+  { name: "relationships", url: "https://api.factoryfour.com/relationships/health/status" },
+  { name: "rules", url: "https://api.factoryfour.com/rules/health/status" },
+  { name: "templates", url: "https://api.factoryfour.com/templates/health/status" },
+  { name: "users", url: "https://api.factoryfour.com/users/health/status" },
+  { name: "workflows", url: "https://api.factoryfour.com/workflows/health/status" }
+]
