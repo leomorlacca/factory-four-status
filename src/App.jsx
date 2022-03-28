@@ -1,10 +1,10 @@
-import Card from "./components/Card"
-import Header from "./components/Header"
-import "./App.css"
 import { useState, useEffect } from "react"
 import axios from "axios"
+import Card from "./components/Card"
+import Header from "./components/Header"
 import { aEndpoints } from "./EndpointsData"
 import { formatDate } from "./helpers/formatters"
+import "./App.css"
 
 const renderCard = endpoint => {
   return (
